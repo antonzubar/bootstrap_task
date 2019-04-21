@@ -1,0 +1,52 @@
+h1 {
+    color: blue;
+}
+
+#top-section {
+    background-image: url(../img/top-section/top-background.png);
+    background-size: cover;
+    height: 1020px;
+}
+
+.page-header {
+    padding-top: 40px;
+    &__logo-name {
+        font-family: 'Raleway', sans-serif;
+        font-size: 34px;
+        color: white;
+    }
+
+    &__menu {
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+
+    &__menu-item {
+        a {
+            color: white;
+            transition: color 0.2s linear;
+            margin-right: 15px;
+            &:hover {
+                color: #9a8875;
+                text-decoration: none;
+            }
+        }
+        display: inline-block;        
+    }
+
+    &__small-icon {
+        fill: white;
+        transition: fill 0.2s linear;
+        cursor: pointer;
+
+        &:hover {
+            fill: #9a8875;
+        }
+
+        &:first-of-type {
+            margin-right: 15px;
+        }
+    }
+}
