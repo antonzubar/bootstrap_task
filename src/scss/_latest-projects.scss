@@ -64,10 +64,87 @@
   border: none;
   margin-top: 30px;
 
+  &__image-holder {
+    position: relative;
+
+    .url-icon {
+      position: absolute;
+      fill: #c7b299;
+      top: 45%;
+      left: 50%;
+      margin-left: -46px;
+      display: none;
+      transition: fill 0.2s linear;
+      cursor: pointer;
+
+      &:hover {
+        fill: #fff;
+      }
+    }
+
+    .mglass-icon {
+      position: absolute;
+      fill: #c7b299;
+      top: 45%;
+      left: 50%;
+      margin-left: 20px;
+      display: none;
+      transition: fill 0.2s linear;
+      cursor: pointer;
+
+      &:hover {
+        fill: #fff;
+      }
+    }
+  }
+
   .card-body {
       background-color: #fbfaf8;
 
-    .card-text {
+    .card-name {
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: #cbb7a0;
+      margin-bottom: 0;
+    }
+
+    .card-category {
+      color: #d1d1d1;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+    }
+  }
+
+  &:hover {
+
+    .projects-card__image-holder {
+      background-color: #362f2d;
+
+      .url-icon {
+        display: inline;
+      }
+
+      .mglass-icon {
+        display: inline;
+      }
+    }
+
+    img {
+      opacity: 0.2;
+    }
+
+    .card-body {
+      background-color: #362f2d;
+
+      .card-name {
+        color: #fff;
+      }
+
+      .card-category {
+        color: #c7b299;
+      }
     }
   }
 }
