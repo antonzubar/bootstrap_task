@@ -1,0 +1,73 @@
+.projects-first-row {
+  padding-bottom: 0;
+}
+
+.projects-second-row {
+  padding-top: 37px;
+}
+
+.projects-third-row {
+  padding-top: 0;
+
+  button {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+  }
+}
+
+.projects-text-holder__headline {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  display: block;
+  color: #555555;
+}
+
+.projects-text-holder__paragraph {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #8c8c8c;
+}
+
+.projects-text-holder__button-holder {
+
+  .btn {
+    width: auto;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 5px 23px;
+    box-sizing: border-box;
+  }
+
+  .btn-outline-primary {
+    color: #8c8c8c;
+    border-color: #8c8c8c;
+
+    &:hover {
+      color: white;
+      background-color: #998675;
+      border-color: #8c8c8c;
+    }
+  }
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+  color: white;
+  background-color: #998675;
+  border-color: #8c8c8c;
+}
+
+.projects-card {
+  border: none;
+  margin-top: 30px;
+
+  .card-body {
+      background-color: #fbfaf8;
+
+    .card-text {
+    }
+  }
+}
