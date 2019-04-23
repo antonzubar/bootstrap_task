@@ -1,10 +1,13 @@
 #top-section {
   background-image: url(../img/top-section/top-background.png);
   background-size: cover;
+
+  .row {
+    padding: 37px 0;
+  }
 }
 
 .page-header {
-  padding-top: 40px;
   &__logo-name {
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
@@ -47,7 +50,7 @@
 }
 
 .bd-example {
-  margin-top: 135px;
+  margin-top: 0px;
 }
 
 .carousel {
@@ -119,6 +122,7 @@
 .carousel-control-prev {
   display: inline;
   top: 130px;
+  left: -80px;
 
   span {
     svg#Capa_1 {
@@ -131,6 +135,7 @@
 .carousel-control-next {
   display: inline;
   top: 130px;
+  right: -80px;
 
   span {
     svg#Capa_2 {
