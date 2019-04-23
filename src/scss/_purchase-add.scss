@@ -1,0 +1,33 @@
+#purchase-add {
+  background: -moz-linear-gradient(right, #1c0d05 0%, #1c0e05 28%, #493125 76%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(right, #1c0d05 0%,#1c0e05 28%,#493125 76%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1c0d05 0%,#1c0e05 28%,#493125 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  .row {
+    padding: 37px 0;
+
+    button {
+      border: none;
+      font-size: 14px;
+      width: 170px;
+      height: 50px;
+    }
+  }
+}
+
+.text-holder {
+  &__top-headline {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    color: white;
+
+    span {
+      color: #c7b299;
+    }
+  }
+
+  &__bottom-headline {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 18px;
+    color: #615855;
+  }
+}
