@@ -1,0 +1,36 @@
+#counters {
+  background: -moz-linear-gradient(right, #1c0d05 0%, #1c0e05 28%, #493125 76%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(right, #1c0d05 0%,#1c0e05 28%,#493125 76%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1c0d05 0%,#1c0e05 28%,#493125 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  .row {
+    padding: 57px 0;
+  }
+
+  .col-2 {
+
+    text-align: center;
+
+    .counter {
+      color: #fff;
+      font-size: 48px;
+      font-weight: 200;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .short-description {
+      color: #c7b299;
+      font-size: 14px;
+      font-weight: 300;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+    }
+
+    .underline {
+      width: 30px;
+      height: 2px;
+      background-color: #fff;
+      display: inline-block;
+    }
+  }
+}
