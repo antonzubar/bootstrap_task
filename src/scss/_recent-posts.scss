@@ -1,0 +1,101 @@
+.recent-posts-first-row {
+  padding-bottom: 0;
+}
+
+.recent-posts-second-row {
+  padding: 0;
+}
+
+.recent-posts-third-row {
+  padding: 25px 0 50px;
+}
+
+.recent-post-url {
+  color: #c7b299;
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.recent:hover {
+
+  .projects-card__day {
+    background-color: #c7b299;
+  }
+
+  .projects-card__month {
+    background-color: #a48d72;
+  }
+
+  .projects-card__image-holder {
+    background-color: #362f2d;
+
+    .url-icon {
+      display: inline;
+    }
+
+    .mglass-icon {
+      display: inline;
+    }
+  }
+
+  img {
+    opacity: 0.9;
+  }
+
+  .card-body {
+    background-color: #362f2d;
+
+    .card-name {
+      color: #fff;
+    }
+
+    .card-category {
+      color: #c7b299;
+    }
+  }
+}
+
+.projects-card__data-holder {
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-align: center;
+
+  .projects-card__day {
+    background-color: #363636;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding: 5px 8px;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .projects-card__month {
+    background-color: #252525;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 0 0 4px 4px;
+  }
+}
+
+.page-item:nth-child(n) {
+  .page-link {
+    border-radius: 50%;
+    padding: 1px 7px;
+}}
+
+.pagination {
+  text-align: center;
+}
+
+.page-item:nth-child(1) {
+  margin-right: 10px;
+}
